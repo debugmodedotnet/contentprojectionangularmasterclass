@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "contentprojection": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "contentprojection"
+    }
+  },
+  "defaultProject": "contentprojection",
+  "cli": {
+    "analytics": "0189ee46-1450-4315-8252-2e86e6353c00"
+  }
 }

@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'contentprojection';
+  rememberMe = false; 
+  login(data) {
+    console.log('suuccessful logedin - ' , JSON.stringify(data),this.rememberMe);
+  }
+  signup(data) {
+    console.log('succesful registered - ' + JSON.stringify(data));
+  }
+
+  rememberUser(data : boolean){
+     this.rememberMe = data; 
+  }
+
 }
